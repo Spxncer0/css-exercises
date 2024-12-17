@@ -3,13 +3,20 @@
   font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-#first-id {
+/* Added alt-font-size class to prevent inline styling and so I can add to multiple declarations */
+
+.alt-font-size {
+  font-size: 24px
+}
+
+/* I changed the ID names to be more fitting, from "first-id" and "second-id" */
+
+#two {
   color: blue;
   font-size: 36px;
 }
 
-#second-id {
+#four {
   background-color: #90ee90;
-  font-size: 24px;
   font-weight: bold;
 }
